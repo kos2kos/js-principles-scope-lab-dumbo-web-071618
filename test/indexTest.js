@@ -1,5 +1,24 @@
 const expect = chai.expect;
 
+let customerName = 'bob';
+const leastFavoriteCustomer = "YOUR MOM";
+function upperCaseCustomerName(arg){
+  return arg.toUpperCase()
+}
+
+function setBestCustomer() {
+  var bestCustomer = 'not bob';
+}
+
+function overwriteBestCustomer(){
+  var bestCustomer = 'maybe bob';
+}
+
+function changeLeastFavoriteCustomer(){
+  LeastFavoriteCustomer = arg;
+}
+
+
 describe('Fix the Scope', function() {
   describe('declare customerName to be bob in global scope', function() {
     it('returns the customerName', function() {
