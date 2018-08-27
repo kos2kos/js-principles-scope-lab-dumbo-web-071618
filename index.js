@@ -1,14 +1,14 @@
 // Write your solution in this file!
 let customerName = "bob";
-
+let bestCustomer = "";
+let changeLeastFavoriteCustomer
 function upperCaseCustomerName(arg){
-  return arg.
+  return arg.toUpperCase()
 }
-upperCaseCustomerName()
-modifies the customerName variable ‣
-AssertionError: expected undefined to equal 'bob'
-    at Context.<anonymous> (test/indexTest.js:12:38)
-setBestCustomer()
+
+function setBestCustomer(arg) {
+  
+}
 setBestCustomer ‣
 ReferenceError: setBestCustomer is not defined
     at Context.<anonymous> (test/indexTest.js:23:7)
