@@ -11,9 +11,9 @@ function setBestCustomer(arg) {
 }
 
 function overwriteBestCustomer(arg){
-  
+  setBestCustomer(arg);
 }
 
 function changeLeastFavoriteCustomer(arg){
-  
+  LeastFavoriteCustomer = arg;
 }
